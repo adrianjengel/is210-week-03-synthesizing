@@ -4,3 +4,6 @@
 
 
 import inquisition
+VAR = inquisition.SPANISH[0:inquisition.SPANISH.index('Spanish')]
+
+FLEMISH = VAR + 'Flemish ' + inquisition.SPANISH[27:]
